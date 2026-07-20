@@ -13,3 +13,7 @@ git push
 
 git branch -a
 git chekout branch_name
+
+# How to  delete a branch 
+
+git branch -d branch_name
