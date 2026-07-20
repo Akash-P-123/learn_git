@@ -1,0 +1,15 @@
+# How to clone a repo
+
+git clone "URL"
+
+# How to check status , commit , add and push your repo in your git hub
+
+git status
+git add
+git commit -m "Feat: comment "
+git push
+
+#How to check your No. Of Branches in your repo 
+
+git branch -a
+git chekout branch_name
