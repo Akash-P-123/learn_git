@@ -17,3 +17,7 @@ git chekout branch_name
 # How to  delete a branch 
 
 git branch -d branch_name
+
+# To delete in github we use 
+
+git push origin --delete branch_name
