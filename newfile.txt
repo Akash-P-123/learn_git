@@ -1,23 +1,23 @@
 # How to clone a repo
-
 git clone "URL"
 
 # How to check status , commit , add and push your repo in your git hub
-
 git status
 git add
 git commit -m "Feat: comment "
 git push
 
 #How to check your No. Of Branches in your repo 
-
 git branch -a
 git chekout branch_name
 
 # How to  delete a branch 
-
 git branch -d branch_name
 
 # To delete in github we use 
-
 git push origin --delete branch_name
+
+# To delete a file in the branch
+git rm file_name
+git commit -m "Feat: comments"
+git push origin main
