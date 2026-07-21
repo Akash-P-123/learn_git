@@ -5,7 +5,7 @@ git clone "URL"
 git status
 git add
 git commit -m "Feat: comment " 
-git commit --amend # Used for to edit the last commit in a test editor and also we can able to use the same commit message again
+git commit --amend # Used for to edit the last commit in a test editor and also we can able to use the same commit message again 
 git push
 git push -f #force the push operation
 
