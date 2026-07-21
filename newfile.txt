@@ -6,6 +6,7 @@ git status
 git add
 git commit -m "Feat: comment "
 git push
+git push -f #force the push operation
 
 #How to check your No. Of Branches in your repo 
 git branch -a
@@ -21,3 +22,8 @@ git push origin --delete branch_name
 git rm file_name
 git commit -m "Feat: comments"
 git push origin main
+
+#The Git reset Command
+git reset --medium hash value 
+git reset --soft hash value
+git reset --hard hash value
