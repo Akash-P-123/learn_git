@@ -31,3 +31,6 @@ git push origin main
 git reset --medium hash value 
 git reset --soft hash value
 git reset --hard hash value
+
+#To pick the spefic feature from another branch 
+
