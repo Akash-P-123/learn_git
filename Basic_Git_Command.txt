@@ -33,4 +33,8 @@ git reset --soft hash value
 git reset --hard hash value
 
 #To pick the spefic feature from another branch 
+git cherry-pick <Hash_Value>
+
+#To squash commit (or) Reorder the commit in Git we use
+git rebase --i <previous_hash_value>
 
