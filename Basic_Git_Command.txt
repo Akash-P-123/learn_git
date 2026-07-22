@@ -33,4 +33,47 @@ git reset --soft hash value
 git reset --hard hash value
 
 #To pick the spefic feature from another branch 
+git cherry-pick <Hash_Value>
+
+#To squash commit (or) Reorder the commit in Git we use
+git rebase -i <previous_hash_value>
+
+# The git Stash Command
+git stash -u # Used for unstaged file to save temporary in local for to checkout the current branch
+git stash #Used for Staged file to save
+git stash list # Shows the lish of file which are stashed
+git stash pop # Used for to reterive the stased file ( works on LIFO)
+git stash clear
+git stash show
+git stash drop
+git stash apply
+
+#The Git diff Command is used to view the difference between the old file and updated file
+git diff
+git diff --staged
+git diff --w
+git diff <Hash_Value_1> < Hash_Value_2>
+git diff --no-index
+git diff --word-diff
+git diff --stat
+
+
+#The Git log Command
+git log --oneline
+git log 
+git log --oneline --decorate
+git log --stat
+git log --shortlog
+git log --graph --oneline --decorate
+git log -p
+git log --pretty=formate:"%cn %h %cd"
+git log --after="2025-1-1"
+git log --grep="hi"
+
+#The git ignore command
+file_name.gitignore
+
+# TO create a new branch and merge the branch
+git checkout -b branch_name
+git merge branch_name #  to merge we need to be in main branch
 
