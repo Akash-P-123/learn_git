@@ -1,0 +1,21 @@
+# TO Run the Docker Command and pull the container
+docker run <Container_name:Specification>
+docker pull <Container_name>
+docker start  <Container_name or COntainer value>
+docker stop  <Container_name or COntainer value>
+
+#Trouble Shooting
+docker logs
+docker logs <Name_of_the_Container>
+docker exec -it <container_name_or_id> <shell_type>
+
+# To check all the running containe
+docker ps 
+docker images 
+docker ps -a
+
+#To assign the port address 
+docker run -p<local_port:Container_port> <COntainer_name>
+
+#To Change the name of the container
+docker run --name "Name_as_you_wish" <Img_name>
