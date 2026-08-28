@@ -1,20 +1,33 @@
+Note :
+=========================================================================================================================
+
+* Git Clone is used to clone the repo and pull the files in the cloud to local system no need for git pull and fetch  
+
+* If we had a Dir or to upload in the git use git init add . commit then perform git pull and push it  
+
+=========================================================================================================================
+
+
 # TO Initiate the git
 git  init
 
 # To add remote repo
-git remote add origin url
+git remote add origin url.git
 git fetch origin main
 
 # To Pull all the remote files to the local
-git push origin main
+git pull origin main
+git remote -v
+git remote remove -v
+
 
 # How to clone a repo
-git clone "URL"
+git clone "URL.git"
 git clone https://<username>:<pat>@github.com/<username>/<repo>.git
 
 # How to check status , commit , add and push your repo in your git hub
 git status
-git add
+git add . (or) git add <file_name>
 git commit -m "Feat: comment " 
 git commit --amend # Used for to edit the last commit in a test editor and also we can able to use the same commit message again 
 git push
