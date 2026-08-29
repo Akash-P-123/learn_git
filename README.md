@@ -8,7 +8,7 @@ Learn how Git commands work and how to use them to streamline development proces
 
 ## Structure
 
-- This README provides an overview
+- This README.md provides an overview
 - Refer to the commands documentation for detailed Git command examples and usage
 
 ## Getting Started
